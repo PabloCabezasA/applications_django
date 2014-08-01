@@ -1,0 +1,16 @@
+{% extends "index_page.html" %}
+{% block script %}
+<script type="text/javascript" src="{{ STATIC_URL }}src/js/myweb_AccountAccount_form.js"></script>
+{% endblock %}
+
+{% block central %}
+<div id="central_div">
+	<div id="botonera"><input type="button" id="button_edit" class="btn btn-primary" value="Editar"/><input type="button" class="btn btn-default" id="button_crear" value="Crear"/><input type="button"class="btn btn-success" id="button_guardar" value="Guardar"/></div>
+			<form id="form_accountAccount"class="form-inline" action="." role="form">
+				{{ CRF_token}}																
+				<div>
+				<label for="id_code"><p>Codigo y nombre de la cuenta</p></label></br>{{ form.code }}--{{ form.name }}			
+				</div>
+			</form>						
+</div>
+{% endblock %} 

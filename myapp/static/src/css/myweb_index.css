@@ -1,0 +1,26 @@
+.page-header{
+	padding-top: 15px;
+}
+#botonera {
+	padding: 5px;	
+}
+#botonera input{
+	margin-right: 5px;
+}
+
+#central_div{
+	padding: 30px;
+	background-color: #F5F5F5;
+}
+#form_accountAccount label{
+	color: black;
+	text-decoration: bold;
+	text-align: left;;
+	margin-right: 5px;
+}
+#form_accountAccount input{		
+	text-align: middle;
+	margin-right: 2px;
+	margin-left: 2px;
+	padding: 3px;
+}
